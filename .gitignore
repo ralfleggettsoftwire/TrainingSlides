@@ -1,0 +1,4 @@
+*.pdf
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate*

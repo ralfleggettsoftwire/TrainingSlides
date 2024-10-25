@@ -1,0 +1,6 @@
+{
+    "markdown.marp.themes": [
+        "./themes/softwire.css"
+    ],
+    "cSpell.language": "en-GB"
+  }

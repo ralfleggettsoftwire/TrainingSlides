@@ -1,0 +1,40 @@
+/* @theme softwire */
+
+@import 'default';
+
+:root {
+    --horizontal-padding: 75px;
+
+    width: 1280px;
+    height: 720px;
+
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+
+    font-family: 'Montserrat';
+    font-size: 18pt;
+}
+
+header {
+    position: absolute;
+    left: var(--horizontal-padding);
+    top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1EBCC8;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 28pt;
+    font-family: 'Montserrat Light';
+}
+
+h3 {
+    font-size: 20pt;
+}
+
