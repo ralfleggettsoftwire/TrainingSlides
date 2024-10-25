@@ -902,7 +902,7 @@ You may want to try running the steps in the `terraform apply` slide after addin
 
 - Create an [`aws_s3_bucket_website_configuration` resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_website_configuration); this configures an S3 bucket as a static website
 
-- Create [`aws_s3_object` resources](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_object) for each website file you want to put in your bucket
+- Create [`aws_s3_object` resources](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_object) for each website file you want to put in your bucket
   - You'll need to set the `acl` argument
   - If you set the `content_type` argument, you won't need to specify `.html` in the URL
 
